@@ -1,11 +1,51 @@
 .App {
   text-align: center;
 }
-
+.dollar{
+  font-size: 45px;
+  font-weight: 500;
+}
+.months{
+  font-size:14px;
+  font-weight:500;
+}
+.div1{
+  display:grid;
+  grid-auto-flow:row;
+  justify-content: left;
+  padding-left: 15px;
+}
+.paradiv1{
+  display: flex;
+  align-items: left;
+  place-content: left;
+  gap:4px;
+}
+.imgsize{
+  width: 20px;
+}
+.grey{
+  color:#b0b2b4;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.image{
+ background-image: url("tick.png");
+ width: 25px;
+ }
+ .btn{
+   width:380px;
+   height: 50px;
+   margin-left: 15px;
+   border-radius: 25px;
+   border: none;
+   color: white;
+   font-weight: 700;
+   background-color: #0062E6;
+   opacity: 0.7;
+ }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
